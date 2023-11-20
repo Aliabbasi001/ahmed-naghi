@@ -1,0 +1,17 @@
+.img-4{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+}
+.img-4:hover{
+    opacity: 0.9;
+    scale: 101%;
+    transition: 0.2s;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+}
