@@ -1,31 +1,4 @@
-@import url('https://fonts.googleapis.com/css?familly=poppins:200,300,400,500,600,700,800,900&display=swap');
-*
 
-
-
-{
-
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'poppins', sans-serif;
-
-
-
-
-}
-
-body
-{
-
-display:flex;
-min-height: 100vh;
-justify-content: flex-end;
-align-items: flex-end;
-background: #333;
-
-
-}
 footer
 {
 
@@ -38,7 +11,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-
+margin: auto;
 
 }
 
@@ -158,32 +131,5 @@ z-index: 999;
 opacity: 0.7;
 bottom: 20px;
 animation: animatewave_02 3s linner infinite;
-
-}
-
-@keyframes animatewave1
-{
-
-     0%
-     {
-        background-position-x: 1000px;
-     }
-     100%
-     {
-        background-position-x: 0px;
-     }
-
-}
-@keyframes animatewave_02
-{
-
-     0%
-     {
-        background-position-x: 0px;
-     }
-     100%
-     {
-        background-position-x: 1000px;
-     }
 
 }
